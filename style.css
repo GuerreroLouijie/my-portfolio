@@ -70,3 +70,17 @@ section {
    text-align: justify;
 }
 
+/* ==========================================
+   ACTIVITY 3: SKILL CARDS
+   ========================================== */
+.skill-card {
+  display: inline-block;
+  width: 150px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: top;
+}
+
