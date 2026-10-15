@@ -328,3 +328,58 @@ section {
 .send-button:hover {
   background-color: #254e99;
 }
+
+/* ==========================================
+   ACTIVITY 8: TABLET LAYOUT
+   ========================================== */
+@media (max-width: 768px) {
+  #projects,
+  #experience,
+  #contact {
+    scroll-margin-top: 130px;
+  }
+
+  .project-card {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+}
+
+/* ==========================================
+   ACTIVITY 8: MOBILE LAYOUT
+   ========================================== */
+@media (max-width: 600px) {
+  .portfolio-nav {
+    gap: 4px;
+    padding: 10px;
+  }
+
+  .portfolio-nav a {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #projects,
+  #experience,
+  #contact {
+    scroll-margin-top: 150px;
+  }
+
+  #projects h2,
+  #experience h2,
+  #contact h2 {
+    font-size: 23px;
+  }
+
+  .project-card {
+    flex-basis: 100%;
+  }
+
+  .contact-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .send-button {
+    width: 100%;
+  }
+}
