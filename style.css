@@ -223,3 +223,36 @@ section {
 .experience-table tbody tr:nth-child(even) {
   background-color: #f5f7fa;
 }
+
+/* ==========================================
+   ACTIVITY 6: STICKY NAVIGATION
+   ========================================== */
+.portfolio-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.portfolio-nav a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #222222;
+  text-decoration: none;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.portfolio-nav a:hover {
+  background-color: #edf2fc;
+  color: #254e99;
+}
+
