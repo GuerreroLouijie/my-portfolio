@@ -85,9 +85,9 @@ section {
 }
 
 /* ==========================================
-   ACTIVITIES 4 -5: Shared
+   ACTIVITIES 4 -5 - 7: Shared
    ========================================== */
-#projects, #experience{
+#projects, #experience, #contact{
  background-color: #f3f3f3;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -96,11 +96,11 @@ section {
   margin: 40px auto;
 }
 
-#projects *, #experience *{
+#projects *, #experience *, #contact *{
   box-sizing: border-box;
 }
 
-#projects h2, #experience h2 {
+#projects h2, #experience h2, #contact h2 {
   margin: 0 0 10px;
   color: #222222;
   font-size: 26px;
@@ -256,3 +256,75 @@ section {
   color: #254e99;
 }
 
+/* ==========================================
+   ACTIVITY 7: CONTACT FORM
+   ========================================== */
+.contact-note {
+  color: #555555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto 0;
+  text-align: left;
+}
+
+.contact-row {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-field {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 20px;
+}
+
+.contact-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.contact-field input,
+.contact-field textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #222222;
+  font: inherit;
+  transition: border-color 0.2s;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border-color: #3366cc;
+  outline: 2px solid #3366cc;
+  outline-offset: 2px;
+}
+
+.contact-field textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.send-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3366cc;
+  color: #ffffff;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover {
+  background-color: #254e99;
+}
