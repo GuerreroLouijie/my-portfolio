@@ -85,9 +85,9 @@ section {
 }
 
 /* ==========================================
-   ACTIVITIES 4  
+   ACTIVITIES 4 -5: Shared
    ========================================== */
-#projects {
+#projects, #experience{
  background-color: #f3f3f3;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -96,11 +96,11 @@ section {
   margin: 40px auto;
 }
 
-#projects *{
+#projects *, #experience *{
   box-sizing: border-box;
 }
 
-#projects h2 {
+#projects h2, #experience h2 {
   margin: 0 0 10px;
   color: #222222;
   font-size: 26px;
@@ -182,3 +182,44 @@ section {
   background-color: #254e99;
 }
 
+/* ==========================================
+   ACTIVITY 5: EDUCATION AND EXPERIENCE TABLE
+   ========================================== */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.experience-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.experience-table caption {
+  margin-bottom: 12px;
+  color: #555555;
+  text-align: left;
+}
+
+.experience-table th,
+.experience-table td {
+  padding: 14px;
+  border: 1px solid #dddddd;
+  vertical-align: top;
+}
+
+.experience-table thead th {
+  background-color: #3366cc;
+  color: #ffffff;
+}
+
+.experience-table tbody th {
+  width: 28%;
+}
+
+.experience-table tbody tr:nth-child(even) {
+  background-color: #f5f7fa;
+}
