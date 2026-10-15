@@ -383,3 +383,29 @@ section {
     width: 100%;
   }
 }
+
+/* ==========================================
+   ACTIVITY 9: FOOTER
+   ========================================== */
+.portfolio-footer {
+  padding: 25px 20px;
+  border-top: 1px solid #dddddd;
+  background-color: #ffffff;
+  color: #555555;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.portfolio-footer p {
+  margin: 0 0 10px;
+}
+
+.portfolio-footer a {
+  color: #254e99;
+  text-decoration: none;
+}
+
+.portfolio-footer a:hover {
+  text-decoration: underline;
+}
+
